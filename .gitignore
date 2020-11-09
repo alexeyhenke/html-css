@@ -2,3 +2,5 @@
 # Idea
 .idea/
 .idea
+# other files
+*.zip
