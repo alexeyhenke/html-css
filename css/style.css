@@ -1,0 +1,116 @@
+/* Мой первый сайт styles */
+body{
+    font-family: sans-serif;
+}
+
+.menu_head {
+    background-color: cadetblue;
+    border: 1px solid palevioletred;
+    margin: 3px 0 3px 0;
+    padding: 3px;
+}
+
+.header_block{
+    background-color: lightgray;
+    padding: 15px;
+    border: 2px solid blueviolet;
+}
+
+.info_block {
+    float: left;
+    width: 50%;
+    background-color: aliceblue;
+    padding: 15px;
+    border: 2px solid aqua;
+    alignment-baseline: center;
+}
+
+.info_block .img_displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_block {
+    background-color: cornsilk;
+    padding: 15px;
+    border: 2px solid brown;
+    overflow: hidden;
+    /*padding: 160px 15px 160px 15px;*/
+}
+
+.map_block {
+    background-color: beige;
+    padding: 15px;
+    border: 2px solid darkgreen;
+    clear: both;
+}
+
+.footer_block{
+    background-color: darkgray;
+    padding: 15px;
+    border: 2px solid darkorange;
+}
+
+.head_h1{
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.head_h2{
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.head_h3{
+    font-size: 36px;
+    text-align: center;
+}
+
+.head_h4{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.paragraph{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.input_area{
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.btn{
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.menu_list:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.menu_list:last-child {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.menu_list {
+    list-style-type: none;
+}
+
+a:hover {
+    color: red;
+}
