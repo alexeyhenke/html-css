@@ -1,4 +1,14 @@
 /* Мой первый сайт styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 body{
     font-family: sans-serif;
 }
@@ -6,6 +16,10 @@ body{
 .menu_head {
     background-color: cadetblue;
     border: 1px solid palevioletred;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 3px 0 3px 0;
     padding: 3px;
 }
@@ -14,15 +28,99 @@ body{
     background-color: lightgray;
     padding: 15px;
     border: 2px solid blueviolet;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.hello {
+    display: flex;
+    flex-wrap: wrap;
+    /*height: 600px;*/
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.hello_block {
+    width: 425px;
+    /*height: 300px;*/
+    border: 1px solid deeppink;
+    flex-grow: 1;
+    padding-right: 80px;
+}
+
+.hello_img {
+    height: 400px;
+    margin: 10px;
+}
+
+.what-we-do {
+    background-color: aliceblue;
+    border: 1px solid burlywood;
+    /*height: 600px;*/
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cards_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*height: 490px;*/
+    border: 1px solid plum;
+    align-items: center;
+}
+
+.card-item {
+    background-color: #FFFFFF;
+    border: 1px solid dodgerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 330px;
+    margin: 3px;
+    padding: 20px;
+}
+
+.img_cards {
+    height: 140px;
+    /*width: 150px;*/
+}
+
+/* contacts.html */
+.contact_us_block {
+    background-color: lightgray;
+    border: 2px solid blueviolet;
+    height: 100px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.info_body_block {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    border: 1px solid rebeccapurple;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 .info_block {
     float: left;
-    width: 50%;
+    /*width: 50%;*/
     background-color: aliceblue;
-    padding: 15px;
     border: 2px solid aqua;
     alignment-baseline: center;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .info_block .img_displayed {
@@ -31,29 +129,65 @@ body{
     margin-right: auto;
 }
 
+.phone_list {
+    border: 1px solid rebeccapurple;
+    margin: 5px;
+    padding: 5px;
+    list-style-type: none;
+}
+
 .form_block {
-    background-color: cornsilk;
+    background-color: aliceblue;
+    border: 2px solid aqua;
+    /*overflow: hidden;*/
     padding: 15px;
-    border: 2px solid brown;
-    overflow: hidden;
-    /*padding: 160px 15px 160px 15px;*/
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .map_block {
     background-color: beige;
     padding: 15px;
     border: 2px solid darkgreen;
-    clear: both;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .footer_block{
     background-color: darkgray;
-    padding: 15px;
     border: 2px solid darkorange;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.footer_interest {
+    width: 495px;
+    height: 150px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.footer_contacts {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.footer_cont_card {
+    border: 1px solid whitesmoke;
+}
+
+.footer_contact_phone {
+    border: 1px solid whitesmoke;
+}
+
+.footer_contact_email {
+    border: 1px solid whitesmoke;
 }
 
 .head_h1{
-    font-size: 64px;
+    font-size: 54px;
     color: #1F3F68;
 }
 
@@ -66,18 +200,23 @@ body{
 .head_h3{
     font-size: 36px;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .head_h4{
-    font-size: 20px;
+    font-size: 19px;
     line-height: 30px;
     color: #1F3F68;
+    width: 359px;
 }
 
 .paragraph{
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .input_area{
@@ -109,6 +248,9 @@ body{
 }
 .menu_list {
     list-style-type: none;
+    border: 1px solid rebeccapurple;
+    margin: 5px;
+    padding: 5px;
 }
 
 a:hover {
