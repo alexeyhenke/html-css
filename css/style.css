@@ -4,54 +4,86 @@
     margin: 0;
     padding: 0;
 }
+
+.top {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.top_box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 body{
     font-family: sans-serif;
 }
 
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.text-project {
+    width: 60%;
+    margin: 32px auto 64px;
+    color: #222222;
+    text-align: center;
+    opacity: 1;
+}
+
 .menu_head {
-    background-color: cadetblue;
-    border: 1px solid palevioletred;
-    height: 30px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 3px 0 3px 0;
-    padding: 3px;
+    list-style-type: none;
+    padding-top: 42px;
 }
 
 .header_block{
-    background-color: lightgray;
-    padding: 15px;
-    border: 2px solid blueviolet;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 115px;
+    margin-bottom: 32px;
+    flex-grow: 1;
+    background-image: url("../img/illustration.png");
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 
 .hello {
-    display: flex;
-    flex-wrap: wrap;
-    /*height: 600px;*/
-    justify-content: center;
-    align-items: center;
-    border: 2px solid green;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    width: 425px;
+    height: 82px;
 }
 
-.hello_block {
-    width: 425px;
-    /*height: 300px;*/
-    border: 1px solid deeppink;
-    flex-grow: 1;
-    padding-right: 80px;
+.top_button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
 }
+
+/*.hello_block {*/
+/*    width: 425px;*/
+/*    !*height: 300px;*!*/
+/*    border: 1px solid deeppink;*/
+/*    flex-grow: 1;*/
+/*    padding-right: 80px;*/
+/*}*/
 
 .hello_img {
     height: 400px;
@@ -59,38 +91,41 @@ body{
 }
 
 .what-we-do {
-    background-color: aliceblue;
-    border: 1px solid burlywood;
-    /*height: 600px;*/
-    align-items: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    padding-top: 64px;
 }
 
 .cards_block {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /*height: 490px;*/
-    border: 1px solid plum;
-    align-items: center;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .card-item {
-    background-color: #FFFFFF;
-    border: 1px solid dodgerblue;
+    width: 359px;
+    margin-bottom: 14px;
+    padding: 44px 32px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    height: 400px;
-    width: 330px;
-    margin: 3px;
-    padding: 20px;
+}
+
+.card-link {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
 }
 
 .img_cards {
     height: 140px;
     /*width: 150px;*/
+    align-self: center;
+    margin-bottom: 51px;
 }
 
 /* contacts.html */
@@ -187,8 +222,12 @@ body{
 }
 
 .head_h1{
-    font-size: 54px;
     color: #1F3F68;
+    width: 510px;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
 }
 
 .head_h2{
@@ -198,26 +237,60 @@ body{
 }
 
 .head_h3{
+    font-weight: 300;
     font-size: 36px;
+    line-height: 46px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    letter-spacing: 0.05em;
+    color: #000000;
 }
 
 .head_h4{
-    font-size: 19px;
+    font-size: 20px;
     line-height: 30px;
+    letter-spacing: 0.05em;
     color: #1F3F68;
-    width: 359px;
 }
 
 .paragraph{
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
+
+/* project */
+
+.project {
+
+}
+
+.project-item {
+    /*position: relative;*/
+}
+
+.project-img {
+    width: 100%;
+}
+
+.project-text {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.project-parent {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-top: 32px;
+    margin-bottom: 112px;
+}
+
 
 .input_area{
     border: 1px solid #356EAD;
