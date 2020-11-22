@@ -65,27 +65,32 @@ body{
     align-items: center;
     margin-top: 5px;
     margin-bottom: 5px;
+    width: 1140px;
+    /*height: 585px;*/
+    /*left: 113px;*/
+    /*top: 832px;*/
 }
 
 .cards_block {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    /*height: 490px;*/
+    justify-content: space-around;
     border: 1px solid plum;
-    align-items: center;
+    width: 1140px;
+    /*height: 585px;*/
+    left: 113px;
+    top: 832px;
 }
 
 .card-item {
     background-color: #FFFFFF;
     border: 1px solid dodgerblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     height: 400px;
-    width: 330px;
-    margin: 3px;
-    padding: 20px;
+    width: 250px;
+    margin: 10px;
+    padding: 32px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
 }
 
 .img_cards {
@@ -205,10 +210,12 @@ body{
 }
 
 .head_h4{
+    width: 283px;
     font-size: 19px;
     line-height: 30px;
     color: #1F3F68;
-    width: 359px;
+    font-weight: normal;
+    letter-spacing: 0.05em;
 }
 
 .paragraph{
