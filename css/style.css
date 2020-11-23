@@ -188,37 +188,107 @@ body{
     margin-top: 5px;
 }
 
-.footer_block{
-    background-color: darkgray;
-    border: 2px solid darkorange;
-    padding: 15px;
-    margin-bottom: 15px;
+.footer_block {
+    background: #316099;
+    padding-bottom: 20px;
 }
 
 .footer_interest {
+    display: flex;
+    justify-content: space-around;
+    /*width: 495px;*/
+    /*margin-top: 91px;*/
+    /*margin-left: 113px;*/
+}
+
+.footer_txt_block {
     width: 495px;
-    height: 150px;
-    border: 1px solid white;
-    margin-bottom: 10px;
-    padding: 10px;
+    height: 204px;
+    margin-top: 91px;
+    margin-left: 113px;
+}
+
+.footer_h3 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 32px;
+}
+
+.footer-button {
+    margin-top: 180px;
+}
+
+.footer-btn {
+    text-decoration: none;
+    padding: 15px 80px;
+    background: #5A98D0;
+}
+
+.footer-line {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    margin-top: 96px;
 }
 
 .footer_contacts {
     display: flex;
-    justify-content: space-around;
-    margin: 10px;
+    justify-content: center;
+    margin-top: 64px;
 }
 
 .footer_cont_card {
-    border: 1px solid whitesmoke;
+    display: flex;
+    width: 359px;
+    margin-left: 113px;
+    margin-right: 32px;
+}
+
+.footer_letter {
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer_paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
 }
 
 .footer_contact_phone {
-    border: 1px solid whitesmoke;
+    display: flex;
+    width: 359px;
 }
 
 .footer_contact_email {
-    border: 1px solid whitesmoke;
+    display: flex;
+    width: 359px;
+    margin-right: 32px;
+    margin-left: 113px;
+}
+
+.paragraph_rights {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    margin: 64px 0 64px 113px;
 }
 
 .head_h1{
@@ -265,7 +335,7 @@ body{
 }
 
 .project-item {
-    /*position: relative;*/
+    position: relative;
 }
 
 .project-img {
@@ -275,12 +345,24 @@ body{
 .project-text {
     font-size: 32px;
     line-height: 46px;
-    text-align: right;
+    /*text-align: right;*/
     letter-spacing: 0.05em;
     color: #FFFFFF;
     position: absolute;
+    /*top: 64px;*/
+    /*right: 64px;*/
+}
+
+.project-text-align-right {
+    text-align: right;
     top: 64px;
     right: 64px;
+}
+
+.project-text-align-left {
+    text-align: left;
+    top: 32px;
+    left: 32px;
 }
 
 .project-parent {
