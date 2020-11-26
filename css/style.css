@@ -233,6 +233,19 @@ body{
     text-decoration: none;
     padding: 15px 80px;
     background: #5A98D0;
+    font-size: 16px;
+    line-height: 26px;
+    /*text-align: center;*/
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.footer-btn-text {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
 
 .footer-line {
@@ -351,6 +364,7 @@ body{
     position: absolute;
     /*top: 64px;*/
     /*right: 64px;*/
+    text-decoration: none;
 }
 
 .project-text-align-right {
@@ -363,6 +377,15 @@ body{
     text-align: left;
     top: 32px;
     left: 32px;
+}
+
+.a_footer {
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
 }
 
 .project-parent {
